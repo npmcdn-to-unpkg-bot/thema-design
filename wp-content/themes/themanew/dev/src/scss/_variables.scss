@@ -1,0 +1,26 @@
+//Access via functions:: palette($tone: 'primary', $variant:'dark')
+//Returns : #000
+$colors: (
+  primary : (
+    light: #fff,
+    base : #CCC,
+    dark : #000
+    ),
+
+   secondary: (
+    light: #fff,
+    base : #CCC,
+    dark : #000
+    )
+  );
+
+$red: #C1394E;
+$green: #7B9529;
+$brown: #8F4509;
+
+$breakpoints : (
+  mobile: 480px,
+  tablet: 768px,
+  desktop: 900px,
+  extreme: 1024px
+  );
