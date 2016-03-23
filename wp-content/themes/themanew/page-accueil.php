@@ -22,7 +22,7 @@
 					            <div class="hsContainer">
 					                <div class="hsContent">
 					                    <div class="section__text">
-					                   		<img src="<?php bloginfo('template_directory'); ?>/static/images/logo.png" alt="Thema Design Logo" class="mb">
+					                   		<img src="<?php bloginfo('template_directory'); ?>/static/images/logo.png" alt="Thema Design Logo" class="logo mb">
 					                   		<h2 class="mt">Agence conseil</h2>
 					                    </div>
 					                </div>
@@ -34,22 +34,22 @@
 							<div class="row">
 								<div class="col-md-4">
 									<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-									<h3 class="h3">Développement de projets d’innovation par le design</h3>
+									<h3 class="h3 red">Développement de projets d’innovation par le design</h3>
 								</div>
 								
 								<div class="col-md-4">
 									<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-									<h3 class="h3">Actions marketing et communication ciblées sur les architectes et les prescripteurs</h3>
+									<h3 class="h3 green">Actions marketing et communication ciblées sur les architectes et les prescripteurs</h3>
 								</div>
 								
 								<div class="col-md-4">
 									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-									<h3 class="h3">Stratégies de valorisation des marques et des savoir faire</h3>
+									<h3 class="h3 brown">Stratégies de valorisation des marques et des savoir faire</h3>
 								</div>
 							</div>
 							
 							<div class="mb+">
-								<h3 class="h3">Depuis 2005, THEMA_DESIGN conseille les entreprises et les collectivités avec un seul objectif : le développement économique de ses clients</h3>
+								<h3 class="h3">Depuis 2005, THEMA_DESIGN conseille les entreprises et les collectivités avec un seul objectif : <br><strong>le développement économique de ses clients</strong></h3>
 							</div>
 						
 							<img src="<?php bloginfo('template_directory'); ?>/static/images/vous-souhaitez.png" alt="vous souhaitez" data-bottom-top="transform: translateY(200px) rotate(20deg); " data-center-center="transform: translateY(0px) rotate(0deg);">
@@ -61,8 +61,8 @@
 								<div class="col-md-6">
 									<div class="homepage__section">
 										<h3 class="h3 green">Vous souhaitez développer vos relations avec les prescripteurs ?</h3>
-										<p>Nous vous proposons des actions marketing et communication pour séduire les architectes, les décorateurs, les designers , les bureaux d’études, et développer votre business.
-											Nos stratégies de communication ciblées et nos événements professionnels et conviviaux ont prouvé leur capacité à développer votre marque et conquérir des marchés.</p>
+										<p>Nous vous proposons des actions <strong>marketing et communication</strong> pour séduire les architectes, les décorateurs, les designers , les bureaux d’études, et développer votre business.
+										Nos <strong>stratégies de communication</strong> ciblées et nos événements professionnels et conviviaux ont prouvé leur capacité à développer votre marque et conquérir des marchés.</p>
 										<aside class="green">
 											<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
 											<p>Les outils proposés par THEMA_DESIGN:</p>
@@ -90,7 +90,7 @@
 								<div class="col-md-6">
 									<div class="homepage__section">
 										<h3 class="h3 red">Vous souhaitez développer un projet d’innovation par le design ?</h3>
-										<p>Entreprises et collectivités, nous vous accompagnons dans la formalisation et la mise en œuvre de vos projets d’innovation par le design, y compris la sélection d’un designer. Cette démarche permet d’identifier, de partager, de prioriser, de financer de nouvelles idées, avec une vision stratégique transversale gage de succès.</p>
+										<p><strong>Entreprises et collectivités,</strong> nous vous accompagnons dans la <strong>formalisation</strong> et la <strong>mise en œuvre</strong> de vos projets d’innovation par le design, y compris la <strong>sélection d’un designer</strong>. Cette démarche permet d’identifier, de partager, de prioriser, de financer de nouvelles idées, avec une vision stratégique transversale <strong>gage de succès</strong>.</p>
 										<aside class="red">
 											<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
 											<p>Les outils proposés par THEMA_DESIGN:</p>
@@ -123,7 +123,7 @@
 										</div>
 										<div class="col-md-6">
 											<h3 class="h3 brown">Vous souhaitez valoriser vos marques et vos savoir faire ?</h3>
-											<p>Nous vous conseillons dans l’élaboration de votre stratégie de marque et sa mise en œuvre dans l’objectif de développer votre notoriété, votre capital d’image, votre singularité, et ainsi d’augmenter la valeur de votre entreprise ou de votre territoire.</p>
+											<p><strong>Nous vous conseillons</strong> dans l’élaboration de votre <strong>stratégie de marque</strong> et sa mise en œuvre dans l’objectif de développer votre notoriété, votre capital d’image, votre singularité, et ainsi d’augmenter la <strong>valeur de votre entreprise ou de votre territoire</strong>.</p>
 										</div>
 										<div class="col-md-12">
 											<div class="text-center">

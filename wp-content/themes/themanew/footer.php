@@ -7,7 +7,7 @@
 ?>
 <div class="container">
 		<footer id="footer" class="source-org vcard copyright" role="contentinfo">
-			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
+			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> | <a href="mentions-legales">Mentions légales</a></small>
 		</footer>
 
 	</div>

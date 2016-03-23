@@ -220,6 +220,20 @@ body {
   border-radius: 50%;
 }
 
+.nav-main {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-main a {
+  color: #C1394E;
+}
+
+img {
+  max-width: 100%;
+}
+
 .homepage__section {
   min-height: 500px;
 }
@@ -310,6 +324,10 @@ body {
   background-image: url("../images/relations-public-bg.jpg");
 }
 
+.section--concours .bcg {
+  background-image: url("../images/concours-bg.jpg");
+}
+
 .section--equipe .bcg {
   background-image: url("../images/equipe-bg.jpg");
 }
@@ -320,6 +338,16 @@ body {
   color: #fff;
   padding: 50px;
   text-transform: uppercase;
+}
+
+.section img {
+  background: #fff;
+  padding: 30px;
+}
+
+.section .logo {
+  background: transparent;
+  padding: 0;
 }
 
 .section .hsContent {

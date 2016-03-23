@@ -8,6 +8,19 @@ body {
 	padding: 40px;
 	border-radius: 50%;
 }
+.nav-main {
+	margin-top: 30px;
+	background: rgba(255, 255, 255, .9);
+	-webkit-backdrop-filter: blur(10px);
+	a {
+		color: $red;
+	}
+}
+
+
+img {
+	max-width: 100%;
+}
 
 .homepage {
 	&__section {

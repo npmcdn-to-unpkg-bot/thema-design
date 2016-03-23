@@ -25,6 +25,9 @@
 	&--relations {
 		.bcg {background-image:url('../images/relations-public-bg.jpg')}
 	}
+	&--concours {
+		.bcg {background-image:url('../images/concours-bg.jpg')}
+	}
 	&--equipe {
 		.bcg {background-image:url('../images/equipe-bg.jpg')}
 	}
@@ -37,6 +40,16 @@
 		text-transform: uppercase;
 		// max-width: 400px;
 		// margin: 100px auto;
+	}
+	
+	img {
+		background: #fff;
+		padding: 30px;
+	}
+
+	.logo {
+		background: transparent;
+		padding: 0;
 	}
 
 	.hsContainer {
