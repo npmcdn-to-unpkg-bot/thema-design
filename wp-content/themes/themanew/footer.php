@@ -5,8 +5,8 @@
  * @since thema-new 1.0
  */
 ?>
-<div class="container">
-		<footer id="footer" class="source-org vcard copyright" role="contentinfo">
+<div class="container pt pb">
+		<footer id="footer" class="source-org vcard copyright text-center" role="contentinfo">
 			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> | <a href="mentions-legales">Mentions légales</a></small>
 		</footer>
 

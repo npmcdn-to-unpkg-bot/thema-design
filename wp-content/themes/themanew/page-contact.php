@@ -21,9 +21,10 @@
 				        >
 				            <div class="hsContainer">
 				                <div class="hsContent">
-				                    <div class="section__text">
-				                    <p>THEMA_DESIGN 72 rue de Sèvres 75007 Paris France</p>
-				                      <p>Tel : +33(01) 77 32 80 info@thema-design.fr</p>
+				                    <div class="section__text section__text--contact">
+				                    	<p>THEMA_DESIGN <br> 72 rue de Sèvres <br>75007 Paris France</p>
+				                      	<p class="mb">Tel : +33(01) 77 32 80</a></p>
+				                		<?php the_content(); ?>
 				                    </div>
 				                </div>
 				            </div>

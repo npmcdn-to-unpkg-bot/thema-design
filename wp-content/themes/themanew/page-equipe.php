@@ -29,59 +29,63 @@
 				        </div>
 				</section>
 				
-				<div class="equipe">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="equipe__wrap">
-								<img src="<?php bloginfo('template_directory'); ?>/static/images/nicole.jpg" alt="nicole">
-								<div class="equipe__text">
-									<h2>Nicole Lucot-Maitrot</h2>
-									<h3>Management de projets d’innovation</h3>
+				<div class="container">
+					<div class="equipe">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="equipe__wrap">
+									<img src="<?php bloginfo('template_directory'); ?>/static/images/nicole.jpg" alt="nicole">
+									<div class="equipe__text">
+										<h2 class="h4">Nicole Lucot-Maitrot</h2>
+										<h3 class="h6">Management de projets d’innovation</h3>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="equipe__wrap">
-								<img src="<?php bloginfo('template_directory'); ?>/static/images/myrtille.jpg" alt="myrtille">
-								<div class="equipe__text">
-									<h2>Myrtille Berthaut</h2>
-									<h3>Stratégie marketing &amp; développement économique</h3>
+							<div class="col-md-4">
+								<div class="equipe__wrap">
+									<img src="<?php bloginfo('template_directory'); ?>/static/images/myrtille.jpg" alt="myrtille">
+									<div class="equipe__text">
+										<h2 class="h4">Myrtille Berthaut</h2>
+										<h3 class="h6">Stratégie marketing &amp; développement économique</h3>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="equipe__wrap">
-								<img src="<?php bloginfo('template_directory'); ?>/static/images/chantal.jpg" alt="chantal">
-								<div class="equipe__text">
-									<h2>Chantal Riols</h2>
-									<h3>Formation et sensibilisation à l’innovation</h3>
+							<div class="col-md-4">
+								<div class="equipe__wrap">
+									<img src="<?php bloginfo('template_directory'); ?>/static/images/chantal.jpg" alt="chantal">
+									<div class="equipe__text">
+										<h2 class="h4">Chantal Riols</h2>
+										<h3 class="h6">Formation et sensibilisation à l’innovation</h3>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="equipe__wrap">
-								<img src="<?php bloginfo('template_directory'); ?>/static/images/davy.jpg" alt="chantal">
-								<div class="equipe__text">
-									<h2>Davy Claret</h2>
-									<h3>Management &amp; marketing de l’innovation</h3>
+							</div>
+							<div class="row">
+							<div class="col-md-4">
+								<div class="equipe__wrap">
+									<img src="<?php bloginfo('template_directory'); ?>/static/images/davy.jpg" alt="davy">
+									<div class="equipe__text">
+										<h2 class="h4">Davy Claret</h2>
+										<h3 class="h6">Management &amp; marketing de l’innovation</h3>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="equipe__wrap">
-								<img src="<?php bloginfo('template_directory'); ?>/static/images/cindy.jpg" alt="chantal">
-								<div class="equipe__text">
-									<h2>Cindy Coumba</h2>
-									<h3>Assistante communication &amp; community manager</h3>
+							<div class="col-md-4">
+								<div class="equipe__wrap">
+									<img src="<?php bloginfo('template_directory'); ?>/static/images/cindy.jpg" alt="cindy">
+									<div class="equipe__text">
+										<h2 class="h4">Cindy Coumba</h2>
+										<h3 class="h6">Assistante communication &amp; community manager</h3>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="equipe__wrap">
-								<img src="<?php bloginfo('template_directory'); ?>/static/images/louis.jpg" alt="chantal">
-								<div class="equipe__text">
-									<h2>Louis Bisson</h2>
-									<h3>Business advisor</h3>
+							<div class="col-md-4">
+								<div class="equipe__wrap">
+									<img src="<?php bloginfo('template_directory'); ?>/static/images/william-hutter.jpg" alt="william hutter">
+									<div class="equipe__text">
+										<h2 class="h4">William Hutter</h2>
+										<h3 class="h6">Web designer</h3>
+									</div>
 								</div>
 							</div>
 						</div>

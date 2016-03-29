@@ -221,6 +221,7 @@ body {
 }
 
 .nav-main {
+  border-bottom: solid 1px #C1394E;
   margin-top: 30px;
   background: rgba(255, 255, 255, 0.9);
   -webkit-backdrop-filter: blur(10px);
@@ -228,6 +229,15 @@ body {
 
 .nav-main a {
   color: #C1394E;
+}
+
+.nav-main .current-menu-item {
+  background: #C1394E;
+}
+
+.nav-main .current-menu-item a {
+  color: #fff;
+  background: #C1394E;
 }
 
 img {
@@ -293,7 +303,6 @@ img {
   position: relative;
   min-height: 800px;
   max-width: 1800px;
-  margin: auto;
 }
 
 .section--main .bcg {
@@ -338,23 +347,25 @@ img {
   color: #fff;
   padding: 50px;
   text-transform: uppercase;
+  width: 360px;
+  position: absolute;
+  right: 130px;
+  top: 200px;
 }
 
-.section img {
+.section__text--contact {
+  top: 70px;
+}
+
+.section__logos {
+  background: rgba(255, 255, 255, 0.8);
   background: #fff;
-  padding: 30px;
-}
-
-.section .logo {
-  background: transparent;
-  padding: 0;
-}
-
-.section .hsContent {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 8%;
-  text-align: center;
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 4px #C1394E;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -370,6 +381,26 @@ img {
   -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.section img {
+  background: #fff;
+  padding: 10px;
+}
+
+.section .logo {
+  background: transparent;
+  padding: 0;
+}
+
+.section .hsContent {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 8%;
+  text-align: center;
   height: 800px;
 }
 
@@ -381,6 +412,36 @@ img {
   height: 100%;
   width: 100%;
   min-height: 800px;
+}
+
+.equipe {
+  margin-top: 50px;
+}
+
+.equipe__wrap {
+  position: relative;
+  width: 200px;
+  margin: 0 auto 30px;
+}
+
+.equipe__wrap img {
+  margin: auto;
+  height: 100%;
+  width: inherit;
+}
+
+.equipe__text {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
+}
+
+.equipe__text h2 {
+  margin-top: 0;
 }
 
 /* Print styles!
