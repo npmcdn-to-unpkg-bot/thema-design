@@ -138,7 +138,7 @@
 								<div class="col-md-4">
 									<img src="<?php bloginfo('template_directory'); ?>/dev/src/images/valoriser.png" alt="valoriser" 
 									data-400-center=" transform: translate(-50%, -1000px) rotate(-40deg); opacity:0;" 
-									data-top-bottom="opacity: 1;transform: translate(0%, 1200px) rotate(-70deg);">
+									data-top-bottom="opacity: 1;transform: translate(0%, 900px) rotate(-70deg);">
 								</div>
 							</div>
 						</section>
