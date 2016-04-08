@@ -9,11 +9,11 @@ Style sheet for thema-new
 }
 
 .green {
-  color: #7B9529;
+  color: #39C150;
 }
 
-.brown {
-  color: #8F4509;
+.blue {
+  color: #0288D1;
 }
 
 .db {
@@ -222,7 +222,6 @@ body {
 
 .nav-main {
   border-bottom: solid 1px #C1394E;
-  margin-top: 30px;
   background: rgba(255, 255, 255, 0.9);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -231,21 +230,52 @@ body {
   color: #C1394E;
 }
 
-.nav-main .current-menu-item {
-  background: #C1394E;
-}
-
 .nav-main .current-menu-item a {
   color: #fff;
-  background: #C1394E;
+  background: rgba(235, 3, 53, 0.8);
 }
 
-img {
+.circles {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 50px auto 0;
+}
+
+.circles p {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: -30px;
+  width: 600px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.circles .innover {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.circles .developper {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.circles .valoriser {
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+}
+
+.logo {
   max-width: 100%;
 }
 
 .homepage__section {
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .homepage h3 {
@@ -260,6 +290,13 @@ img {
 .homepage aside {
   margin-top: 40px;
   font-weight: bold;
+  background: #eee;
+  padding: 20px;
+}
+
+.homepage aside p {
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .homepage aside .glyphicon {
@@ -269,34 +306,13 @@ img {
   margin-right: 30px;
   padding: 10px;
   font-size: 20px;
+  background: #fff;
 }
 
 .homepage aside ul {
   position: relative;
-  padding-left: 50px;
-  padding-bottom: 20px;
-  margin-left: 30px;
-  padding-bottom: 10px;
-}
-
-.homepage aside ul:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 1px;
-  height: 80%;
-  background: #EB0335;
-}
-
-.homepage aside ul:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 20%;
-  height: 1px;
-  background: #EB0335;
+  margin-left: 60px;
+  margin-right: 30px;
 }
 
 .section {
