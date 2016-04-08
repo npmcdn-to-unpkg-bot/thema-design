@@ -65,7 +65,7 @@
 
 									<img src="<?php bloginfo('template_directory'); ?>/dev/src/images/developper.svg" alt="developper" class="developper" data-center="transform: translate(0px, 0px) rotate(0deg); " data--800-top="transform: translate(100px, 1000px) rotate(20deg);">
 
-									<img src="<?php bloginfo('template_directory'); ?>/dev/src/images/valoriser.png" alt="valoriser" class="valoriser"  data-center="opacity: 1; transform: translate(0px, 0px) rotate(0deg); " data--800-top="opacity: 0; transform: translate(-20px, 400px) rotate(-60deg);">
+									<img src="<?php bloginfo('template_directory'); ?>/dev/src/images/valoriser.png" alt="valoriser" class="valoriser"  data-center="opacity: 1; transform: translate(0px, 0px) rotate(0deg); " data--400-center="opacity: 0; transform: translate(1000px, 400px) rotate(-60deg);">
 								</div>
 								<div class="col-md-6 col-md-offset-2">
 									<div class="homepage__section" data-center="transform: translate(0%, 500px); opacity:0.6; " data-top="transform: translate(0%, 400px); opacity:1;">
@@ -137,8 +137,8 @@
 
 								<div class="col-md-4">
 									<img src="<?php bloginfo('template_directory'); ?>/dev/src/images/valoriser.png" alt="valoriser" 
-									data-400-center=" transform: translate(-50%, -1000px) rotate(-40deg); opacity:0;" 
-									data-top-bottom="opacity: 1;transform: translate(0%, 900px) rotate(-70deg);">
+									data-700-bottom=" transform: translate(70%, -1000px) rotate(-40deg); opacity:0;" 
+									data-bottom="opacity: 1;transform: translate(0%, 200px) rotate(-70deg);" style="">
 								</div>
 							</div>
 						</section>
