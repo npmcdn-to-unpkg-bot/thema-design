@@ -29,7 +29,17 @@
 		.bcg {background-image:url('../images/concours-bg.jpg')}
 	}
 	&--equipe {
-		.bcg {background-image:url('../images/equipe-bg.jpg')}
+		min-height: 400px !important;
+		.hsContent {
+			height: 400px !important;
+		}
+		.section__text {
+			top: 150px;
+		}
+		.bcg {
+			background-image:url('../images/equipe-bg.jpg');
+			min-height: 400px !important;
+		}
 	}
 	
 	&__text {

@@ -32,7 +32,7 @@
 				<div class="container">
 					<div class="equipe">
 						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<div class="equipe__wrap">
 									<img src="<?php bloginfo('template_directory'); ?>/static/images/nicole.jpg" alt="nicole">
 									<div class="equipe__text">
@@ -41,7 +41,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<div class="equipe__wrap">
 									<img src="<?php bloginfo('template_directory'); ?>/static/images/myrtille.jpg" alt="myrtille">
 									<div class="equipe__text">
@@ -50,7 +50,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<div class="equipe__wrap">
 									<img src="<?php bloginfo('template_directory'); ?>/static/images/chantal.jpg" alt="chantal">
 									<div class="equipe__text">
@@ -61,7 +61,7 @@
 							</div>
 							</div>
 							<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<div class="equipe__wrap">
 									<img src="<?php bloginfo('template_directory'); ?>/static/images/davy.jpg" alt="davy">
 									<div class="equipe__text">
@@ -70,7 +70,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<div class="equipe__wrap">
 									<img src="<?php bloginfo('template_directory'); ?>/static/images/cindy.jpg" alt="cindy">
 									<div class="equipe__text">
@@ -79,7 +79,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-4 col-xs-12">
 								<div class="equipe__wrap">
 									<img src="<?php bloginfo('template_directory'); ?>/static/images/william-hutter.jpg" alt="william hutter">
 									<div class="equipe__text">

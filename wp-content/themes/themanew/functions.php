@@ -132,6 +132,20 @@
 require_once('wp_bootstrap_navwalker.php');
 
 
+//add post thumbnails to RSS images
+function cwc_rss_post_thumbnail($content) {
+    global $post;
+    if(has_post_thumbnail($post->ID)) {
+        $content = '<p>' . get_the_post_thumbnail($post->ID) .
+        '</p>' . get_the_excerpt();
+    }
+ 
+    return $content;
+}
+add_filter('the_excerpt_rss', 'cwc_rss_post_thumbnail');
+add_filter('the_content_feed', 'cwc_rss_post_thumbnail');
+
+
 /* Uncomment to add custom image sizes
 
 function themanew_add_image_sizes() {

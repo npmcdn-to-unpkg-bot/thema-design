@@ -59,6 +59,23 @@ body {
 	max-width: 100%;
 }
 
+.blog-posts {
+	padding-bottom: 30px;
+	border-bottom: solid 1px $red;
+	&__image {
+		height: 200px;
+		width: 100%;
+		border: solid 1px #eee;
+		display: flex;
+		align-items: center;
+		 justify-content: center;
+		img {
+
+		}
+	}
+
+}
+
 .homepage {
 	&__section {
 		min-height: 630px;
