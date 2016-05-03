@@ -32,60 +32,6 @@
 					        </div>
 					</section>
 					<div class="container">
-
-
-						<?php 
-						$rss = fetch_feed('http://blog.thema-design.fr/feed');
-						 
-						 
-						if (!is_wp_error( $rss ) ) : 
-						 
-						    $maxitems = $rss->get_item_quantity(3); 
-						    $rss_items = $rss->get_items(0, $maxitems); 
-						endif;
-						?>
-						<?php function get_first_image_url($html)
-						 {
-						 if (preg_match('/<img.+?src="(.+?)"/', $html, $matches)) {
-						 return $matches[1];
-						 }
-						 }
-						?> 
-						 <?php
-						function shorten($string, $length)
-						{
-						    $suffix = '&hellip;';
-						 
-						$short_desc = trim(str_replace(array("/r", "/n", "/t"), ' ', strip_tags($string)));
-						    $desc = trim(substr($short_desc, 0, $length));
-						    $lastchar = substr($desc, -1, 1);
-						     if ($lastchar == '.' || $lastchar == '!' || $lastchar == '?') $suffix='';
-						 $desc .= $suffix;
-						 return $desc;
-						}
-						?>
-							<h3 class="h3 text-center mt+ mb+">Les dernières nouvelles de Thema Design</h3>
-						<div class="row blog-posts">
-						    <?php 
-						     if ($maxitems == 0) echo '<div class="col-md-4">No items.</div>';
-						     else 
-						     foreach ( $rss_items as $item ) : ?>
-						    <div class="col-md-4">
-
-							    <div class="blog-posts__image">
-							    <?php echo '<img src="' .get_first_image_url($item->get_content()). '" class="max-width"/>'; ?>
-							    </div>
-
-						        <h5><a href='<?php echo esc_url( $item->get_permalink() ); ?>' title='<?php echo esc_html( $item->get_title() ); ?>'> <?php echo esc_html( $item->get_title() ); ?></a></h5> 
-						 		<p><?php echo shorten($item-> get_description(),'150');?></p>
-						    </div>
-						    <?php endforeach; ?>
-						</div>
-
-
-
-
-
 						<div class="text-center mt+ mb+">
 							<div class="mb+">
 								<h3 class="h3 mb+">Depuis 2005, THEMA_DESIGN conseille les entreprises et les collectivités avec un seul objectif : <br><strong>le développement économique de ses clients</strong></h3>
