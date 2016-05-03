@@ -214,6 +214,7 @@ Style sheet for thema-new
 
 body {
   font-family: 'Century Gothic', 'Muli', sans-serif;
+  overflow-x: hidden;
 }
 
 .glyphicon {
@@ -228,6 +229,11 @@ body {
   border-bottom: solid 1px #C1394E;
   background: rgba(255, 255, 255, 0.9);
   -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-main .container {
+  width: 760px;
+  padding: 0;
 }
 
 .nav-main a {
